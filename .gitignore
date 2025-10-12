@@ -1,0 +1,9 @@
+# Ignore virtual environment
+melanoma-env/
+
+# Ignore image data
+data/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
