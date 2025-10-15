@@ -59,10 +59,10 @@ def load_model(model_choice):
     if model_choice == "ResNet18":
         model = models.resnet18(pretrained=False)
         model.fc = nn.Linear(model.fc.in_features, 2)
-        model.load_state_dict(torch.load("melanoma_model.pth", map_location=device))
+        model.load_state_dict(torch.load("/Users/frankllonch/Desktop/quattroporte/aprendizado de máquina/melanomator/models/melanoma_model.pth", map_location=device))
     else:
         model = CustomCNN()
-        model.load_state_dict(torch.load("melanoma_model2.pth", map_location=device))
+        model.load_state_dict(torch.load("/Users/frankllonch/Desktop/quattroporte/aprendizado de máquina/melanomator/models/melanoma_model3.pth", map_location=device))
     model.to(device)
     model.eval()
     return model
