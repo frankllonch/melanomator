@@ -3,14 +3,13 @@
 An AI-powered skin lesion classification system that predicts whether an image is Benign or Malignant.
 Built with PyTorch, Streamlit, and Plotly, this project aims to provide a fast, explainable, and accessible diagnostic prototype — paving the way toward a future mobile health app.
 
-⸻
+
 
 # 🚀 Live Demo
 
-### 👉 Try it here: Melanoma Classifier Streamlit App
+### 👉 Try it here: https://melanomapp.streamlit.app/
 Upload any skin lesion image to get a prediction, probability score, and Grad-CAM heatmap visualization.
 
-⸻
 
 # 🧠 Project Overview
 
